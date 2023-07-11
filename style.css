@@ -1,0 +1,147 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Caveat", cursive;
+        font-family: "Encode Sans Semi Expanded", sans-serif;
+        font-family: "Kanit", sans-serif;
+        font-family: "Montserrat", sans-serif;
+        font-family: "Open Sans", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: "Varela Round", sans-serif;
+        color: #373537;
+}
+
+.container{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        
+}
+
+.header {
+        height: 15vh;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+       
+}
+
+.navbar-links {
+        display: flex;
+        gap: 3rem;
+}
+
+.navbar-links li {
+        list-style-type: none;
+        /* font-weight: 900; */
+}
+
+.navbar-links li a {
+        text-decoration: none;
+        color: black;
+}
+
+.left-main-heading h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+       
+}
+
+.left-main-heading h1 span{
+        color: #027043;
+        font-weight: 800;
+        font-size: 6rem;
+}
+.left-main-para{
+        margin-top: 1rem;
+}
+.button{
+        margin-top: 1rem;
+        padding: .7rem 1rem;
+        border-radius: 3rem;
+        background-color: #027043;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        outline: none;
+        border: none;
+}
+
+.main {
+        height: 60vh;
+        width: 100%;
+        padding: 7rem 2rem 3rem 5rem;
+        display: flex;
+        justify-content: space-between;
+}
+
+.left-main {
+        width: 50%;
+        margin-right: 5rem;
+}
+
+.right-main {
+        /* border: 2px solid black; */
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+}
+
+/* .coffee-img{
+        position: relative;
+        left: 20rem;
+} */
+/* .coffee-img{
+        position: absolute;
+        left: 15rem;
+} */
+.coffee {
+        height: 65vh;
+        position: relative;
+        top: 1rem;
+}
+
+.online-logos {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid skyblue; */
+        position: absolute;
+        right: 0;
+}
+
+.online-logos .fa-brands {
+        padding-bottom: 1.2rem;
+}
+.footer{
+        height: 8vh;
+        text-align: center;
+}
+
+.footer img{
+        padding-right: 2rem;
+}
+
+
+.thumbimg:hover{
+        cursor: pointer;
+        transform: translateY(-2rem);
+        transition: all .5s ease-in;
+}
+
+.circle{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #027043;
+        clip-path: circle(32rem at right 40rem);
+        
+}
